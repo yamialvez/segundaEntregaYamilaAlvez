@@ -1,20 +1,27 @@
+//Creo la clase de objeto producto como base para cargar los productos 
+class Producto {
+    constructor(nombre, id, precio, color, stock) {
+        this.id = id;
+        this.tipo = tipo;
+        this.nombre = nombre;
+        this.precio = precio;
+        this.foto = foto;
+    }
+}
+
+
+
 const productos = [
-    {id:01, tipo:"Remera", nombre:"Musculosa Good Times", precio: 1400, foto: "./media/muscu good times.jpg" },
-    {id:02, tipo:"Remera", nombre:"Remera Aeternum", precio: 1400, foto: "./media/reme aeternum.jpg" },
-    {id:03, tipo:"Remera", nombre:"Remera Batik", precio: 1000, foto: "./media/reme batik.jpg" },
-    {id:04, tipo:"Remera", nombre:"Remera Global", precio: 1000, foto: "./media/reme global.jpg" },
-    {id:05, tipo:"Remera", nombre:"Remera Good Times", precio: 1400, foto: "./media/reme good times.jpg" },
-    {id:06, tipo:"Remera", nombre:"Remera Self Love", precio: 1500, foto: "./media/reme self love.jpg" },
-    {id:07, tipo: "Buzo", nombre: "Buzo Scream", precio: 4500, foto: "./media/buzo scream.jpg"},
-    {id:08, tipo: "Buzo", nombre: "Buzo Negro Oversized", precio: 3800, foto: "./media/buzo negro oversized.jpg"},
-    {id:09, tipo: "Buzo", nombre: "Buzo Batik Oversized", precio: 3800, foto: "./media/buzo batik.jpg"},
-    {id:10, tipo: "Buzo", nombre: "Hoddie Heads", precio: 3800, foto: "./media/hoddie heads.jpg"},
-    {id:11, tipo: "Pantalon", nombre: "Jogging NC", precio: 2900, foto: "./media/pant logo.jpg"},
-    {id:12, tipo: "Short", nombre: "Short Shining in the dark", precio: 1200, foto: "./media/short shining.jpg"},
-    {id:13, tipo: "Short", nombre: "Short Notte", precio: 1000, foto: "./media/short notte.jpg"},
-    {id:14, tipo: "Biker", nombre: "Biker black", precio: 1300, foto: "./media/biker black.jpg"},
-    {id:15, tipo: "Accesorio", nombre: "Lentes Atria", precio: 2300, foto: "./media/lentes atria.jpg"},
-    {id:16, tipo: "Accesorio", nombre: "Lentes Venatori", precio: 2400, foto: "./media/lentes venatori.jpg"},
-    {id:17, tipo: "Accesorio", nombre: "Beanie Pink", precio: 800, foto: "./media/beanie pink.jpg"},
-    {id:18, tipo: "Accesorio", nombre: "Beanie Violet", precio: 800, foto: "./media/beanie violet.jpg"}
+    {id:01, tipo:"Cacerola", nombre:"Cacerola 18 cm", precio: 45000, foto: "/img/cacerola 18 cm.jpeg" },
+    {id:02, tipo:"Cacerola", nombre:"Cacerola 20 cm", precio: 55000, foto: "/img/cacelola 20cm.jpeg" },
+    {id:03, tipo:"Cacerola", nombre:"Cacerola 24 cm", precio: 65000, foto: "/img/cacerola 24 cm.jpeg" },
+    {id:04, tipo:"Sarten", nombre:"Sarten 18 cm", precio: 35000, foto: "/img/sarten 18 cm.jpeg" },
+    {id:05, tipo:"Sarten", nombre:"Sarten 20 cm", precio: 45000, foto: "/img/sarten 20 cm.jpeg" },
+    {id:06, tipo:"Sarten", nombre:"Sarten 24 cm", precio: 55000, foto: "/img/sarten 24 cm.jpeg" },
+    {id:07, tipo: "Otro", nombre: "flip", precio: 45000, foto: "/img/flip.jpeg"},
+    {id:08, tipo: "Otro", nombre: "Savarin", precio: 38000, foto: "/img/savarin.jpeg"},
+    {id:09, tipo: "Otro", nombre: "Wok", precio: 68000, foto: "/img/wok.jpeg"},
+    {id:10, tipo: "Accesorios", nombre: "Mate", precio: 3800, foto: "/img/mate.jpeg"},
+    {id:11, tipo: "Accesorios", nombre: "Kit espatula", precio: 2900, foto: "/img/espatulas.jpeg"},
+    {id:12, tipo: "Accesorios", nombre: "Centrifugador de vegetales", precio: 6200, foto: "/img/centrifugador.jpeg"},
 ];
